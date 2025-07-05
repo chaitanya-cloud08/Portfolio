@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Fira+Code:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-light text-textLight dark:bg-dark dark:text-textDark;
+    @apply transition-colors duration-300;
+
+    /* Creative Grid Background */
+    background-image: 
+      linear-gradient(rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+      linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+  }
+
+  /* Custom selection color */
+  ::selection {
+    @apply bg-accent/30;
+  }
+}
