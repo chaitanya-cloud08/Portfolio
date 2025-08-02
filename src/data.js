@@ -38,16 +38,7 @@ export const projects = [
     },
     category: 'Development'
   },
-//   {
-//     title: "Product Teardown: Spotify (Product)",
-//     description: "A case study on Spotify's Discover Weekly feature, analyzing its UX and proposing enhancements.",
-//     stack: ["Figma", "User Journey Mapping"],
-//     links: {
-//       github: null, // No code for case studies
-//       live: "https://your-notion-or-medium-link.com",
-//     },
-//     category: 'Product'
-//   },
+
   {
     title: "InPhase",
     description: "A minimal, user-friendly web app that empowers women with PCOD to track symptoms, understand hormones, and get personalized wellness tips.",
@@ -101,6 +92,5 @@ export const education = [
     degree: "Xth and XIIth",
     institution: "Sumermal Jain Public School",
     duration: "2020-2022",
-    //description: "Relevant Coursework: Data Structures, Algorithms, Human-Computer Interaction, Software Engineering."
   }, 
 ]

@@ -40,7 +40,6 @@ const MobileNav = () => {
   };
 
   return (
-    // This entire component is hidden on medium screens and larger
     <header className="md:hidden sticky top-0 z-40 w-full bg-light/90 dark:bg-dark/90 backdrop-blur-sm border-b border-slate-300/20 dark:border-slate-800/40">
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center h-16">
         <a href="#" className="font-mono text-xl font-bold">
@@ -66,14 +65,13 @@ const MobileNav = () => {
                 <motion.a
                   key={link.href}
                   href={link.href}
-                  onClick={toggleMenu} // Close menu on link click
+                  onClick={toggleMenu} 
                   className="px-3 py-2 text-base font-medium rounded-md hover:bg-slate-200 dark:hover:bg-gray-700"
                   variants={linkVariants}
                 >
                   {link.title}
                 </motion.a>
               ))}
-              {/* Add the Resume button here for mobile */}
               <motion.a
                 href={personalInfo.resumeUrl}
                 target="_blank"

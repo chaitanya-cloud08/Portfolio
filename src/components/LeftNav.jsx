@@ -16,10 +16,8 @@ const LeftNav = ({ sections, activeSection }) => {
   return (
     <aside className=" hidden md:flex flex-col h-screen fixed top-0 left-0 z-40 w-64 bg-light/80 dark:bg-dark/80 backdrop-blur-sm border-r border-slate-300/20 dark:border-slate-800/40">
       
-      {/* Top section: This part will grow but not push the bottom part out */}
       <div className="flex-grow overflow-y-auto">
         
-        {/* --- MODIFIED PROFILE SECTION --- */}
         <div className="p-4 py-6 text-center">
           <a href="#" className="inline-block mb-4">
             <img 
@@ -33,7 +31,6 @@ const LeftNav = ({ sections, activeSection }) => {
           </a>
           <p className="text-xs text-slate-500 mt-1">{personalInfo.tagline}</p>
         </div>
-        {/* --- END OF MODIFIED SECTION --- */}
 
         <ul className="space-y-2 font-medium px-3">
           {sections.map((section) => {
@@ -59,7 +56,6 @@ const LeftNav = ({ sections, activeSection }) => {
         </ul>
       </div>
 
-      {/* Bottom section: This part is now guaranteed to be at the bottom */}
       <div className="p-4 border-t border-slate-300/20 dark:border-slate-800/40">
         <a
           href={personalInfo.resumeUrl}

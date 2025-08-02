@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
 import ParticleBackground from './components/ParticleBackground';
 import MobileNav from './components/MobileNav'; 
-// Import all your sections and components
 import LeftNav from './components/LeftNav';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -29,7 +28,7 @@ function App() {
           }
         });
       },
-      { rootMargin: '-30% 0px -70% 0px' } // Adjust this to fine-tune when a section becomes 'active'
+      { rootMargin: '-30% 0px -70% 0px' } 
     );
 
     sections.forEach((sectionId) => {
@@ -53,11 +52,7 @@ function App() {
             <LeftNav sections={sections} activeSection={activeSection} />
 <MobileNav />
       <div className="flex">
-          
-        {/* Left-side Navigation (hidden on mobile) */}
-        
-        {/* Main Content Area */}
-        <div className="w-full md:w-[calc(100%-16rem)] md:ml-64">
+                  <div className="w-full md:w-[calc(100%-16rem)] md:ml-64">
           <main className="container mx-auto px-6 lg:px-12 py-12 md:py-0">
             <Hero />
             <About />

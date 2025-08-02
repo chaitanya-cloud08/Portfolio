@@ -9,20 +9,20 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        mono: ['Fira Code', 'monospace'], // Add Fira Code
+        mono: ['Fira Code', 'monospace'], 
       },
       colors: {
-        dark: "#111827",      // A cool, dark gray (almost black)
-        light: "#f9fafb",     // A very light gray
+        dark: "#111827",    
+        light: "#f9fafb",    
         accent: {
-          DEFAULT: "#8A2BE2", // Vibrant violet
-          hover: "#7B1FA2",   // Darker violet
-          glow: "rgba(138, 43, 226, 0.4)", // Glow color for shadows
+          DEFAULT: "#8A2BE2", 
+          hover: "#7B1FA2",  
+          glow: "rgba(138, 43, 226, 0.4)", 
         },
         textLight: "#111827",
         textDark: "#f9fafb",
       },
-      // Adding a custom box-shadow for the glow effect
+  
       boxShadow: {
         'glow-accent': '0 0 15px 0px rgba(138, 43, 226, 0.6)',
       }

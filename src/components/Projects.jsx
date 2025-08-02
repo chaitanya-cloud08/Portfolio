@@ -12,7 +12,6 @@ const ProjectCard = ({ project, index }) => {
       viewport={{ once: true, amount: 0.4 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-        {/* Fake Window Controls */}
         <div className="absolute top-3 left-4 flex space-x-1.5">
             <div className="w-2.5 h-2.5 rounded-full bg-red-500"></div>
             <div className="w-2.5 h-2.5 rounded-full bg-yellow-500"></div>

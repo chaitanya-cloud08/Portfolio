@@ -12,8 +12,6 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you would typically handle form submission, e.g., send to an API endpoint
-        // For this example, we'll just simulate it.
         console.log('Form data submitted:', formData);
         setStatus('Thank you for your message!');
         setFormData({ name: '', email: '', message: '' });
@@ -25,11 +23,6 @@ const Contact = () => {
         <p className="mb-8 text-lg font-bold ">
           Get in touch with me to discuss ideas, collaborations, or opportunities. I'd love to hear from you!
         </p>
-        {/* <a href={`mailto:${personalInfo.contact.email}`} className="inline-block px-8 py-3 bg-accent  text-white font-bold rounded-lg hover:bg-accent-hover transition-colors mb-12">
-            Say Hello
-        </a> */}
-        
-        {/* Uncomment below if you want to use a contact form */}
         
         <form action="https://formsubmit.co/chaitanyabehlforwork@gmail.com"  method="POST"  className="space-y-4" >
             <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required className="w-full p-3 rounded-md bg-white/10 border border-slate-300/30 focus:ring-2 focus:ring-accent outline-none" />

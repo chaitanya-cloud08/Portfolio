@@ -22,7 +22,7 @@ const Skills = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                custom={index} // You can use this for stagger effects if needed
+                custom={index}
               >
                 {skill}
               </motion.span>
