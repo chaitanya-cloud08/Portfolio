@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     title: "Raah Sakhi",
-    description: "A women-centric micro-mobility and safety platform for Delhi, addressing last-mile mobility, safety and accessibility challenges through a technology-driven solution. I designed and developed the MVP, implementing core product flows and functionality while simultaneously owning the product strategy, UX and technical execution from problem discovery through prototype development.",
+    description: "A women-centric micro-mobility and safety platform for Delhi, addressing last-mile mobility, safety and accessibility challenges through a technology-driven solution.",
     stack: ["Flutter", "Dart", "Firebase", "Google Maps API", "Figma"],
     links: {
       github: "https://github.com/chaitanya-cloud08/raah-sakhi.git",
