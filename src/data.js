@@ -50,11 +50,11 @@ export const projects = [
     category: 'Development'
   },
   {
-    title: "DuetLingo",
-    description: "A Chrome extension that allows you to instantly swap languages on any website, making content more accessible and enjoyable for users.",
-    stack: ["Chrome Extension", "Google Translate API", "Manifest V3", "TailwindCSS"],
+    title: "Raah Sakhi",
+    description: "A women-centric micro-mobility and safety platform for Delhi, addressing last-mile mobility, safety and accessibility challenges through a technology-driven solution. I designed and developed the MVP, implementing core product flows and functionality while simultaneously owning the product strategy, UX and technical execution from problem discovery through prototype development.",
+    stack: ["Flutter", "Dart", "Firebase", "Google Maps API", "Figma"],
     links: {
-      github: "https://github.com/chaitanya-cloud08/DuetLingo",
+      github: "https://github.com/chaitanya-cloud08/raah-sakhi.git",
       live: null,
     },
     category: 'Development'
