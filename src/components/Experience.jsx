@@ -9,7 +9,7 @@ const TimelineItem = ({ item }) => {
         <div className="text-xl font-bold text-textLight dark:text-textDark">{item.role || item.degree}</div>
       </div>
       <div className="text-textLight/80 dark:text-textDark/80">{item.company || item.institution}</div>
-      <div className="text-sm mt-2">{item.description}</div>
+      <div className="text-sm mt-2 whitespace-pre-line">{item.description}</div>
     </div>
   );
 };
