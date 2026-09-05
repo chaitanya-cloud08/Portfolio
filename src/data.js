@@ -73,6 +73,12 @@ export const projects = [
 
 export const experience = [
   {
+    role: "Product Consultant",
+    company: "Times Internet",
+    duration: "Mar 2026 - Present",
+    description: "• Led Regional App Product & Growth: Served as the primary Product SPOC for 6+ regional-language apps while also owning the 0→1 product launch of Quickie by NBT, a Gen-Z focused digital news platform, driving product strategy, distribution, acquisition, engagement and monetization initiatives end-to-end, from feature planning and launch execution to experimentation and performance analysis.\n• Scaled Web-to-app Acquisition: Drove WTA and app acquisition initiatives across MWeb, AMP and app surfaces, optimizing floating CTAs, bottom-navigation placements, App Exclusive nudges and deep-link journeys using GA4, Singular. WTA + organic channels contributed ~30% of total MAU, while App Exclusive initiatives delivered 35% D1 retention and around 14-minute average session duration, strengthening app acquisition and engagement.\n• Drove Data-Led Growth and Monetization Initiatives: Led experimentation across WTA placements, notification strategy, promotional nudges, ASO and advertising infrastructure, using product analytics to drive portfolio-level decisions. Contributed to ~25% growth in monthly app revenue, while coordinating execution across Product, Engineering, Analytics, Editorial and external partners.",
+  },
+  {
     role: "Product Management Intern",
     company: "Times Internet",
     duration: "April 2025 - Present",
